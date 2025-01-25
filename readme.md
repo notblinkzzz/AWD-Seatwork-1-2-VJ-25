@@ -78,7 +78,7 @@ Guiding Questions:
 - Inputs stored in local storage
 
 ### Deployment Link
-https://notblinkzzz.github.io/AWD-Seatwork-1-1-VJ-25/
+https://notblinkzzz.github.io/AWD-Seatwork-1-2-VJ-25/
 
 ### WakaTime
 [![wakatime](https://wakatime.com/badge/user/018ee9d7-76cb-4d00-a96d-8de1fe10ea6a/project/377cc65d-ae1e-4850-9562-5a242aacded6.svg)](https://wakatime.com/badge/user/018ee9d7-76cb-4d00-a96d-8de1fe10ea6a/project/377cc65d-ae1e-4850-9562-5a242aacded6)
