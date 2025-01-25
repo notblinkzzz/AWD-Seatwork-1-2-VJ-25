@@ -146,13 +146,82 @@ header {
     }
 }
 
+
+
 main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 60.55vh;
-    background-color: white;
+    background-image: url(../img/ildar-garifullin-rxcIGXJflVo-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    /* background-color: white; */
     /* background-color: rgba(255, 0, 0, 0.411); */
-}
 
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        width: 60%;
+        /* background-color: rgba(255, 255, 255, 0.363); */
+
+
+        .section-container {
+            display: flex;
+            flex-direction: column;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            height: 97%;
+            padding: 2rem;
+
+            .section-content {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 2.5rem;
+
+                h1,
+                p {
+                    color: var(--fc-secondary);
+                }
+            }
+
+            .form-container {
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                /* background-color: green; */
+                height: 100%;
+                span {
+                    color: red;
+                }
+                label {
+                    display: block;
+                    color: var(--fc-secondary);
+                    /* background-color: red; */
+                  }
+                select {
+                    width: 100%;
+                    padding: 8px;
+                    font-size: 14px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                }
+
+                .next-page {
+                    /* background-color: red; */
+                    position: absolute;
+                    bottom: 0;
+                    width: 10%;
+                    height: 10%;
+                    border-radius: 4px;
+                }
+            }
+        }
+    }
+}
 
 
 .design-two-animated-footer {
@@ -284,28 +353,3 @@ main {
         }
     }
 }
-
-/* main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80.64vh;
-    width: 100%;
-    background-color: red;
-    position: relative;
-    z-index: 0;
-} */
-
-/* footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 9.36vh;
-    background-color: var(--clr-primary-bg);
-    color: var(--clr-primary-text);
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-} */
