@@ -54,8 +54,13 @@ svg {
     --fs-500: 1.25rem;
     --fs-600: 1.5rem;
     --fs-700: 1.75rem;
-    --fs-800: 2rem;
+    --fs-800: 2.5rem;
     --fs-900: 3.5rem;
+
+    --fc-background: rgb(0, 0, 0);
+    --fc-default: rgb(147, 147, 147);
+    --fc-secondary: rgb(255, 255, 255);
+
 
     --fs-icon-default: 2.5rem;
     --clr-icon-primary: rgb(255, 255, 255);
@@ -71,218 +76,75 @@ svg {
 
 body {
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: center;
     font-family: var(--font-family-default);
     font-size: var(--fs-400);
     color: var(--clr-neutral-700);
-    background-color: rgba(0, 0, 0, 0.295);
+    background: rgba(0, 0, 0, 0.39);
+    background-image: url(../img/ildar-garifullin-rxcIGXJflVo-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
-header {
+.container {
     display: flex;
-    justify-content: space-between;
-    height: 9.45vh;
-    align-items: center;
-    padding: 1rem 2rem;
-    background-color:white;
-    color: var(--clr-primary-text);
-    /* position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000; */
-
-    .header-row {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 1rem;
-        width: 100%;
-        /* background-color: red; */
-
-        .landing-page {
-            display: flex;
-            gap: 2rem;
-            height: 2rem;
-            /* background-color: gold; */
-
-        }
-        .header-navigation{
-            display: flex;
-            flex-direction: row;
-            width: 40%;
-            /* background-color: green; */
-
-            .navigation{
-                /* background-color: pink; */
-                width: 100%;
-                display: flex;
-                justify-content: space-evenly;
-            }
-        }
-    }
-}
-
-main {
-    width: 100%;
-    height: 60.55vh;
-    background-color: rgba(255, 0, 0, 0.411);
-}
-
-
-
-.design-two-animated-footer {
-    opacity: 80%;              /*----------------------SECOND-----------------------*/
-    display: flex;
-    width: 100%;
-    height: 30vh;
-    justify-content: space-between;
-    padding: 1rem 12vw 1.5rem 12vw;  /*top right bottom left*/
-    background: black;
     flex-direction: column;
-    z-index: 1000;
-    margin-top: 0; /* take available whitespace */
-    margin-bottom: -10px;      /* remove bottom whitespace */
-    padding-bottom: 5px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.555); 
+    padding: 5rem;
 
-    p {
-        font-size: .9rem;
+    h1,
+    h2,
+    h3 {
+        text-align:center;
+        color: var(--fc-secondary);
     }
 
-    & > .top-div-container {
+    h1 {
+        font-size: var(--fs-900);
+    }
+    h2 {
+        font-size: var(--fs-800);
+    }
+    h3 {
+        width: 50%;
+        font-size: var(--fs-400);
+
+    }
+
+    .top-col{
         display: flex;
+        flex-direction: column;
+        /* background-color: red; */
+        height: 80%;
         width: 100%;
-        height: 50%;
+        justify-content: center;
         align-items: center;
 
-        .first-row {
-            display: flex;
-            width: 15%;
-            height: 100%;
-            align-items: center;
-            .logo {
-                height: 2rem;
-            }
-            .logo:hover {
-                transition: .5s;
-                transform: rotateX(90deg);
-                transform: rotateY(360deg);
-            }
-        }
-        .second-row {
-            display: flex;
-            width: 70%;
-            height: 100%;
-            justify-content: center;
-            align-items: center;
-            .navigation {
-                display: flex;
-                width: 100%;
-                flex-direction: row;
-                justify-content: space-evenly;
-                color: white;
-                width: 100%;
-                a {
-                    color: rgba(255, 255, 255, 0.693);
-                }
-                .navigation-content:hover{
-                    border-left: 2px #65df29 solid;
-                    margin-right: -7px;
-                    padding-left: 5px;
-                    color: white;
-                }
-            }
-        }
-        .third-row {
-            display: flex;
-            justify-content: flex-end;
-            flex-direction: row;
-            gap: 2.5rem;
-            align-items: center;
-            width: 15%;
-            height: 100%;
-
-            .content {
-                color: rgba(255, 255, 255, 0.693);
-                font-size: 1.2rem;
-            }
-            .content:hover{
-                color: white;
-                text-shadow: 0px 5px 10px rgba(255, 255, 255, 0.693);;
-            }
+        button {
+            padding: 2rem 4rem;
+            border-radius: 5px;
+            font-size: var(--fs-600);
+            font-weight: var(--fw-bold);
+            /* bor */
+            /* background-color: green; */
         }
     }
-
-    & > .line {
-        width: 100%;
-        height: 1%;
-        border-radius: 50px;
-        background-color: rgb(91, 91, 91);
-        transition: .5s;
-    }
-
-    & > .line:hover {
-        background-color: white;
-    }
-
-    & > .bottom-div-container {
-        width: 100%;
-        height: 40%;
+    .bottom-col {
         display: flex;
-        color: white;
+        flex-direction: column;
+        background-color: blue;
+        width: 100%;
+        height: 20%;
+        justify-content: center;
         align-items: center;
 
-        .first-row {
-            width: 60%;
-            p {
-                color: rgb(147, 147, 147);
-            }
-
-        }
-        .second-row {
-            display: flex;
-            justify-content: flex-end;
-            gap: 3rem;
-            width: 40%;
-            align-items: center;
-
-            a{
-                color: rgb(147, 147, 147);
-            }
-            p {
-                text-align: center;
-                font-size: .7rem;
-                color: rgb(147, 147, 147);
-            }
-            a:hover {
-                color: rgba(255, 255, 255, 0.782);
-            }
-        }
+ 
     }
 }
-
-/* main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80.64vh;
-    width: 100%;
-    background-color: red;
-    position: relative;
-    z-index: 0;
-} */
-
-/* footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 9.36vh;
-    background-color: var(--clr-primary-bg);
-    color: var(--clr-primary-text);
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-} */
