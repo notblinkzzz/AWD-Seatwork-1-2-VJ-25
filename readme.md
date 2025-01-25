@@ -8,6 +8,7 @@
   <!-- TODO: If you want to add logo or banner you can add it here -->
     <img src="./assets/img/Untitled__2_-removebg-preview 1.png" alt="pic" width="350" height="200">
   </a>
+
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Seatwork 1</h3>
 </div>
@@ -19,10 +20,10 @@
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=notblinkzzz/AWD-SW1)
+![](https://visit-counter.vercel.app/counter.png?page=notblinkzzz/AWD-Seatwork-1-1-VJ-25)
 
 ---
-
+</div>
 <br/>
 <br/>
 
