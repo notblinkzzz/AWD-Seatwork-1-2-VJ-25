@@ -36,15 +36,17 @@
                     <h1>Personal Details </h1>
                     <p>Fill in your personal details to proceed with the car rental.</p>
                 </div>
-                <form class="form-container" action="../../index.html">
+                <form class="form-container" action="../confirmation-page/index.html">
                     <label for="first-name">First Name <span>*</span></label>
                     <input type="text" class ="input-default-size" name="first-name" required="required" placeholder="Juan">
                     <label for="last-name">Last Name <span>*</span></label>
                     <input type="text" class ="input-default-size" name="last-name" required="required" placeholder="Dela Cruz">
                     <label for="email">Email <span>*</span></label>
                     <input type="email" class ="input-default-size" name="email" required="required" placeholder="juandelacruz@gmail.com">
+                    <label for="address">Address <span>*</span></label>
+                    <input type="text" class ="input-default-size" name="address" required="required" placeholder="221B Baker Street">
                     <label for="contact-number">Contact Number <span>*</span></label>
-                    <input type="text" class ="input-default-size" name="contact-number" required="required" pattern="[0-9]{10}" placeholder="+63">
+                    <input type="text" class ="input-default-size" name="contact-number" required="required" pattern="\+63[0-9]{10}" placeholder="+63">
                     <div class="button-container">
                         <a href="../car-choice-page/index.html"><button type="button" class="back-page">Back</button></a>
                         <input type="submit" value="Next" class="next-page">
@@ -85,5 +87,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="./assets/js/scripts.js"></script>
 </body>
 </html>
