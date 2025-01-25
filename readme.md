@@ -54,18 +54,28 @@
 ---
 
 ## Overview
+This seatwork focuses on creating a car rental system that includes 10 cars, with some of them being unavailable. The purpose of this website is to learn how to use JavaScript
 
-<!-- TODO: To be changed -->
-Description of the project in details.
+The key component of my website is that the user inputs are stored in the local storage. I also have hover effects on my headers, and footers.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+The technologies that I used were HTML, CSS, and JavaScript. I used HTML for the content and structure of the website, CSS to design the content to make it look good, and JavaScript for validations and storing the inputs.
+
+<!-- Description of the project in detail.
+
+Guiding Questions:
+- What is the project?
+- What is the purpose?
+- What are the key components?
+- What technology is used and how is it used? -->
 
 ### Key Components
 <!-- TODO: List of Key Components -->
+- Multi-page functionality
+- Hover effects
+- Forms
+- Pagination
+- Input validations
+- Inputs stored in local storage
 
 ### Deployment Link
 https://notblinkzzz.github.io/AWD-SW1/
@@ -80,9 +90,9 @@ https://notblinkzzz.github.io/AWD-SW1/
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules and Principles
-1. Always use ***WD-*** in the Title of the Project for the Subject
+1. Always use ***WD-*** in the title of the project for the subject.
 2. Do not rename any .html files; always use 'index.html' as the filename.
-3. File Structure to follow
+3. Follow the file structure below:
 
 ```
 WD-ProjectName
@@ -112,4 +122,7 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Footer | Reused my footer from my past project | https://github.com/notblinkzzz/WD-Seatwork-3-TX03 |
+| Background image | A picture of a car that suits my website | https://unsplash.com/photos/black-and-gray-car-interior-rxcIGXJflVo |
+| Website Reference | Reference for the content of my pages | https://avis.com.ph/self-drive/ |
+

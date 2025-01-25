@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
         event.preventDefault();
         if (document.getElementById("agreeCheckbox").checked) {
             alert("Thank you for confirming! Your details have been submitted.");
-            localStorage.clear();   // clears the storage for the next user
+            // localStorage.clear();   // u can remove comment if u want to delete the storage when u confirm
         } else {
             alert("Please agree to the terms before proceeding.");
         }
