@@ -14,8 +14,8 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Car Rental System with 10 cars, some of which are unavailable.
-
+  This website is a car rental system that lets users choose between 10 cars, some of which are unavailable. Users can input personal details and save them to local storage. The system also includes validations.
+</div>
 <br/>
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
@@ -78,7 +78,7 @@ Guiding Questions:
 - Inputs stored in local storage
 
 ### Deployment Link
-https://notblinkzzz.github.io/AWD-SW1/
+https://notblinkzzz.github.io/AWD-Seatwork-1-1-VJ-25/
 
 ### WakaTime
 [![wakatime](https://wakatime.com/badge/user/018ee9d7-76cb-4d00-a96d-8de1fe10ea6a/project/377cc65d-ae1e-4850-9562-5a242aacded6.svg)](https://wakatime.com/badge/user/018ee9d7-76cb-4d00-a96d-8de1fe10ea6a/project/377cc65d-ae1e-4850-9562-5a242aacded6)
