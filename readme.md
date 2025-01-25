@@ -6,15 +6,14 @@
 <div align="center">
   <a href="https://github.com/notblinkzzz/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="" alt="pic" width="130" height="100">
+    <img src="./assets/img/Untitled__2_-removebg-preview 1.png" alt="pic" width="350" height="200">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Seatwork 1</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
-</div>
+  Car Rental System with 10 cars, some of which are unavailable.
 
 <br/>
 
@@ -54,9 +53,9 @@
 ---
 
 ## Overview
-This seatwork focuses on creating a car rental system that includes 10 cars, with some of them being unavailable. The purpose of this website is to learn how to use JavaScript
+This seatwork focuses on creating a car rental system that includes 10 cars, with some of them being unavailable. The purpose of this website is to apply my knowledge from my past Web Design Subject, and learn how to use JavaScript.
 
-The key component of my website is that the user inputs are stored in the local storage. I also have hover effects on my headers, and footers.
+The key components of my website include storing user inputs in local storage, hover effects on headers and footers, and input validation for forms.
 
 The technologies that I used were HTML, CSS, and JavaScript. I used HTML for the content and structure of the website, CSS to design the content to make it look good, and JavaScript for validations and storing the inputs.
 
