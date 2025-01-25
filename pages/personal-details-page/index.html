@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental</title>
+    <link rel="stylesheet" href="../personal-details-page/assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+
+</head>
+<body>
+    <header>
+        <div class="header-row">
+            <div class="landing-page">
+                <a href="../../index.html"><i class="fa-solid fa-left-long"></i></a>
+                <p>Back to Landing page</p>
+            </div>
+            <div class="header-navigation">
+                <nav class="navigation">
+                    <a href="" class="navigation-content"> Home </a>
+                    <a href="" class="navigation-content"> About </a>
+                    <a href="" class="navigation-content"> Cars & Services </a>
+                    <a href="" class="navigation-content"> Help </a>
+                    <a href="" class="navigation-content"> Contact Us </a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="section-container">
+                <div class="section-content">
+                    <h1>Personal Details </h1>
+                    <p>Fill in your personal details to proceed with the car rental.</p>
+                </div>
+                <form class="form-container" action="../../index.html">
+                    <label for="first-name">First Name <span>*</span></label>
+                    <input type="text" class ="input-default-size" name="first-name" required="required" placeholder="Juan">
+                    <label for="last-name">Last Name <span>*</span></label>
+                    <input type="text" class ="input-default-size" name="last-name" required="required" placeholder="Dela Cruz">
+                    <label for="email">Email <span>*</span></label>
+                    <input type="email" class ="input-default-size" name="email" required="required" placeholder="juandelacruz@gmail.com">
+                    <label for="contact-number">Contact Number <span>*</span></label>
+                    <input type="text" class ="input-default-size" name="contact-number" required="required" pattern="[0-9]{10}" placeholder="+63">
+                    <div class="button-container">
+                        <a href="../car-choice-page/index.html"><button type="button" class="back-page">Back</button></a>
+                        <input type="submit" value="Next" class="next-page">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="design-two-animated-footer">
+        <div class="top-div-container">
+            <div class="first-row">
+                <img src="./assets/img/goonz-a.png" class="logo">
+            </div>
+            <div class="second-row">
+                <nav class="navigation">
+                    <a href="" class="navigation-content"> Home </a>
+                    <a href="" class="navigation-content"> About </a>
+                    <a href="" class="navigation-content"> Service </a>
+                    <a href="" class="navigation-content"> Contact </a>
+                </nav>
+            </div>
+            <div class="third-row">
+                <a href=""><i class="fa-brands fa-facebook content"></i></a>
+                <a href=""><i class="fa-brands fa-instagram content"></i></a>
+                <a href=""><i class="fa-brands fa-x-twitter content"></i></a>
+            </div>
+        </div>
+        <div class="line">
+        </div>
+        <div class="bottom-div-container">
+            <div class="first-row">
+                <p>Proud home of Goonz, the championship-winning team in Warzone and Valorant.</p>
+            </div>
+            <div class="second-row">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <p> <i class="fa-regular fa-copyright"></i> 2024 Goonz. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
