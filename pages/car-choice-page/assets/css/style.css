@@ -123,6 +123,7 @@ main {
             }
 
             .form-container {
+                position: relative;
                 display: flex;
                 flex-direction: column;
                 position: relative;
@@ -137,12 +138,40 @@ main {
                     /* background-color: red; */
                   }
                 select {
-                    width: 100%;
+                    width: 40%;
                     padding: 8px;
                     font-size: 14px;
                     border: 1px solid #ccc;
                     border-radius: 4px;
+
+                    /* background-color: red; */
                 }
+
+                .car-image-container {
+                    display: flex;
+                    justify-content: center; /* Centers image horizontally */
+                    align-items: center; /* Centers image vertically */
+                    margin-top: 10px;
+                    width: 500px;
+                    height: 300px;
+                    /* border: 1px solid #ccc; */
+                    border-radius: 10px;
+
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                }
+
+                .car-image-container img {
+                    max-width: 100%; /* Ensures the image fits inside */
+                    max-height: 100%; /* Ensures the image fits inside */
+                    object-fit: contain; /* Prevents cropping and keeps aspect ratio */
+                }
+
+                .hidden {
+                    display: none;
+                }
+
 
                 .button-container {
                     display: flex;

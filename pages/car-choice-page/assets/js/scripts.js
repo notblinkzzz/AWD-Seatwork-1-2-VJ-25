@@ -1,6 +1,24 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const carDropdown = document.querySelector("select[name='car-drop-box']");
+    const carDropdown = document.getElementById("car-drop-box");
     const form = document.querySelector(".form-container");
+    const carImage = document.getElementById("car-image");
+    const carImageContainer = document.querySelector(".car-image-container");
+
+    carImageContainer.style.display = "none";
+
+    carDropdown.addEventListener("change", function () {
+        const selectedOption = carDropdown.options[carDropdown.selectedIndex];
+        const imageSrc = selectedOption.getAttribute("data-image");
+
+        if (imageSrc) {
+            carImage.src = imageSrc;
+            carImage.classList.remove("hidden");
+            carImageContainer.style.display = "block";
+        } else {
+            carImage.classList.add("hidden");
+            carImageContainer.style.display = "none";
+        }
+    });
 
     form.addEventListener("submit", function (event) {
         const selectedCar = carDropdown.value;
@@ -14,21 +32,14 @@ document.addEventListener("DOMContentLoaded", function () {
         const carDetailsMap = {
             "toyota-vios": { carChoice: "Toyota Vios", pricePerDay: 1500 },
             "toyota-fortuner": { carChoice: "Toyota Fortuner", pricePerDay: 2500 },
-            "toyota-innova": { carChoice: "Toyota Innova", pricePerDay: 2000 },
             "mitsubishi-montero": { carChoice: "Mitsubishi Montero", pricePerDay: 2200 },
-            "honda-civic": { carChoice: "Honda Civic", pricePerDay: 1800 },
             "nissan-terra": { carChoice: "Nissan Terra", pricePerDay: 2300 },
             "ford-ranger": { carChoice: "Ford Ranger", pricePerDay: 2400 },
             "hyundai-tucson": { carChoice: "Hyundai Tucson", pricePerDay: 2100 },
-            "isuzu-mu-x": { carChoice: "Isuzu MU-X", pricePerDay: 2300 },
             "suzuki-ertiga": { carChoice: "Suzuki Ertiga", pricePerDay: 1700 }
         };
 
         const carDetails = carDetailsMap[selectedCar] || { carChoice: "Unknown", pricePerDay: 0 };
-
-        console.log("Selected Car Details:", carDetails);
-
-
         localStorage.setItem("carDetails", JSON.stringify(carDetails));
     });
 });

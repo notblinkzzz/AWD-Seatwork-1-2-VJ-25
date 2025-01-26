@@ -41,19 +41,24 @@
                 </div>
                 <form class="form-container" action="../personal-details-page/index.html">
                     <label for="car-drop-box">Car of choice <span>*</span></label>
-                    <select name="car-drop-box" required="required" >
+                    <select name="car-drop-box" id="car-drop-box" required="required">
                         <option value="" disabled selected>Select your car</option>
-                        <option value="toyota-vios">Toyota Vios - PHP 1,500/day</option>
-                        <option value="toyota-fortuner">Toyota Fortuner - PHP 2,500/day</option>
+                        <option value="toyota-vios" data-image="./assets/img/toyota-vios.jpg">Toyota Vios - PHP 1,500/day</option>
+                        <option value="toyota-fortuner" data-image="./assets/img/toyota-fortuner.jpg">Toyota Fortuner - PHP 2,500/day</option>
                         <option value="toyota-innova" disabled>Unavailable - Toyota Innova - PHP 2,000/day</option>
-                        <option value="mitsubishi-montero">Mitsubishi Montero - PHP 2,200/day</option>
+                        <option value="mitsubishi-montero" data-image="./assets/img/mitsubishi-montero.jpg">Mitsubishi Montero - PHP 2,200/day</option>
                         <option value="honda-civic" disabled>Unavailable - Honda Civic - PHP 1,800/day</option>
-                        <option value="nissan-terra">Nissan Terra - PHP 2,300/day</option>
-                        <option value="ford-ranger">Ford Ranger - PHP 2,400/day</option>
-                        <option value="hyundai-tucson">Hyundai Tucson - PHP 2,100/day</option>
+                        <option value="nissan-terra" data-image="./assets/img/nissan-terra.jpg">Nissan Terra - PHP 2,300/day</option>
+                        <option value="ford-ranger" data-image="./assets/img/ford-ranger.jpg">Ford Ranger - PHP 2,400/day</option>
+                        <option value="hyundai-tucson" data-image="./assets/img/hyundai-tucson.jpg">Hyundai Tucson - PHP 2,100/day</option>
                         <option value="isuzu-mu-x" disabled>Unavailable - Isuzu MU-X - PHP 2,300/day</option>
-                        <option value="suzuki-ertiga">Suzuki Ertiga - PHP 1,700/day</option>
+                        <option value="suzuki-ertiga" data-image="./assets/img/suzuki-ertiga.jpg">Suzuki Ertiga - PHP 1,700/day</option>
                     </select>
+
+                    <div class="car-image-container">
+                        <img id="car-image" src="" alt="Car Image" class="hidden">
+                    </div>
+
                     <div class="button-container">
                         <input type="submit" value="Next" class="next-page">
                     </div>
