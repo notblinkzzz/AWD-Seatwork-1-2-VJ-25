@@ -113,14 +113,12 @@ header {
         justify-content: space-between;
         gap: 1rem;
         width: 100%;
-        /* background-color: red; */
 
         .landing-page {
             display: flex;
             align-items: center;
             gap: 2rem;
             height: 2rem;
-            /* background-color: gold; */
 
             a {
                 font-size: var(--fs-700);
@@ -134,10 +132,8 @@ header {
             display: flex;
             flex-direction: row;
             width: 40%;
-            /* background-color: green; */
 
             .navigation{
-                /* background-color: pink; */
                 width: 100%;
                 display: flex;
                 justify-content: space-evenly;
@@ -151,12 +147,10 @@ main {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 60.55vh;
+    height: 65.55vh;
     background-image: url(../img/ildar-garifullin-rxcIGXJflVo-unsplash.jpg);
     background-position: center;
     background-size: cover;
-    /* background-color: white; */
-    /* background-color: rgba(255, 0, 0, 0.411); */
 
     section {
         display: flex;
@@ -164,8 +158,6 @@ main {
         justify-content: center;
         height: 100%;
         width: 60%;
-        /* background-color: rgba(255, 255, 255, 0.363); */
-
 
         .section-container {
             display: flex;
@@ -225,14 +217,18 @@ main {
                     height: 100%;
                     /* background-color: green; */
 
-
                     .back-page,
                     .next-page {
                         display: flex;
                         align-items: center;
-                        /* background-color: red; */
+                        background-color:rgb(177, 177, 177);
                         padding: .5rem 1.5rem;
                         border-radius: 4px;
+                    }
+
+                    .back-page:hover,
+                    .next-page:hover {
+                        background-color: white;
                     }
                 }
             }

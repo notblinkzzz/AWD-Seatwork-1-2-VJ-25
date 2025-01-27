@@ -90,7 +90,7 @@ main {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 60.55vh;
+    height: 65.55vh;
     background-image: url(../img/ildar-garifullin-rxcIGXJflVo-unsplash.jpg);
     background-position: center;
     background-size: cover;
@@ -168,19 +168,22 @@ main {
                     width: 100%;
                     /* background-color: green; */
 
-                    #confirmationForm {
-                        background-color: red;
-                    }
-
                     .back-page,
                     .confirmed-page {
                         display: flex;
                         align-items: center;
-                        /* background-color: red; */
+                        background-color:rgb(177, 177, 177);
                         padding: .5rem 1.5rem;
                         border-radius: 4px;
                     }
+
+                    .back-page:hover,
+                    .confirmed-page:hover {
+                        background-color: white;
+                    }
                 }
+
+
 
             }
 
