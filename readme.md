@@ -67,15 +67,13 @@ Guiding Questions:
 - What is the purpose?
 - What are the key components?
 - What technology is used and how is it used? -->
-
 ### Key Components
-<!-- TODO: List of Key Components -->
 - Multi-page functionality
 - Hover effects
 - Forms
 - Pagination
 - Input validations
-- Inputs stored in local storage
+- Inputs are stored in the local storage, like the personal details, car choice, and rented cars
 
 ### Deployment Link
 https://notblinkzzz.github.io/AWD-Seatwork-1-2-VJ-25/
