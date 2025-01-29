@@ -123,4 +123,11 @@ WD-ProjectName
 | Footer | Reused my footer from my past project | https://github.com/notblinkzzz/WD-Seatwork-3-TX03 |
 | Background image | A picture of a car that suits my website | https://unsplash.com/photos/black-and-gray-car-interior-rxcIGXJflVo |
 | Website Reference | Reference for the content of my pages | https://avis.com.ph/self-drive/ |
+| Toyota Vios IMG | img reference for car options | https://toyota.com.ph/news/vios-gr-s-2021 |
+| Toyota Fortuner IMG | img reference for car options | https://www.autoindustriya.com/auto-industry-news/here-s-how-the-2021-toyota-fortuner-looks-in-non-ltd-form.html |
+| Mistubishi Montero IMG | img reference for car options | https://uk.motor1.com/news/740644/mitsubishi-montero-sport-legend-black-series-brazil/ |
+| Nissan Terra IMG | img reference for car options | https://salexport.com/vehicle/L520033-2023-nissan-terra-vl-25l-diesel-4wd-at-with-mt-mode |
+| Ford Ranger IMG | img reference for car options | https://holidayford.com/view/new-2024-ford-ranger-857473/ |
+| Hyundai Tucson IMG | img reference for car options | https://www.autodeal.com.ph/cars/hyundai/tucson |
+| Suzuki Ertiga IMG | img reference for car options | https://www.topgear.com.ph/news/car-news/2022-suzuki-ertiga-refresh-a962-20220422 |
 
