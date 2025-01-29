@@ -29,7 +29,8 @@ document.addEventListener("DOMContentLoaded", function () {
         event.preventDefault();
         if (document.getElementById("agreeCheckbox").checked) {
             alert("Thank you for confirming! Your details have been submitted.");
-            // localStorage.clear();   // u can remove comment if u want to delete the storage when u confirm
+            localStorage.removeItem("personalDetails");
+            window.location.href = "../car-choice-page/index.html";
         } else {
             alert("Please agree to the terms before proceeding.");
         }

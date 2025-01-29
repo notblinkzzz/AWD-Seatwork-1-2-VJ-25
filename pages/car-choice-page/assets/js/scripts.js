@@ -6,6 +6,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
     carImageContainer.style.display = "none";
 
+    // Load unavailable cars from localStorage
+    let unavailableCars = JSON.parse(localStorage.getItem("unavailableCars")) || [];
+
+    // Disable unavailable cars in the dropdown
+    Array.from(carDropdown.options).forEach(option => {
+        if (unavailableCars.includes(option.value) && option.value !== "") {
+            option.textContent = `Unavailable - ${option.textContent}`;
+            option.disabled = true;
+        }
+    });
+
     carDropdown.addEventListener("change", function () {
         const selectedOption = carDropdown.options[carDropdown.selectedIndex];
         const imageSrc = selectedOption.getAttribute("data-image");
@@ -29,6 +40,11 @@ document.addEventListener("DOMContentLoaded", function () {
             return;
         }
 
+        // Add the selected car to unavailable cars
+        unavailableCars.push(selectedCar);
+        localStorage.setItem("unavailableCars", JSON.stringify(unavailableCars));
+
+        // Store car details in localStorage
         const carDetailsMap = {
             "toyota-vios": { carChoice: "Toyota Vios", pricePerDay: 1500 },
             "toyota-fortuner": { carChoice: "Toyota Fortuner", pricePerDay: 2500 },
