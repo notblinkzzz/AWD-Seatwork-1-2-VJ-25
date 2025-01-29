@@ -82,7 +82,7 @@ https://notblinkzzz.github.io/AWD-Seatwork-1-2-VJ-25/
 [![wakatime](https://wakatime.com/badge/user/018ee9d7-76cb-4d00-a96d-8de1fe10ea6a/project/377cc65d-ae1e-4850-9562-5a242aacded6.svg)](https://wakatime.com/badge/user/018ee9d7-76cb-4d00-a96d-8de1fe10ea6a/project/377cc65d-ae1e-4850-9562-5a242aacded6)
 
 ### Technology
-<!-- TODO: List of Technology Used -->
+<!-- TODO: List of Technology Used --> 
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
