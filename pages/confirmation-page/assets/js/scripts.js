@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (document.getElementById("agreeCheckbox").checked) {
             alert("Thank you for confirming! Your details have been submitted.");
             localStorage.removeItem("personalDetails");
-            window.location.href = "../car-choice-page/index.html";
+            window.location.href = "../option-page/index.html";
         } else {
             alert("Please agree to the terms before proceeding.");
         }

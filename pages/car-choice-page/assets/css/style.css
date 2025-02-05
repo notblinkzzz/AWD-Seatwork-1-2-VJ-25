@@ -193,13 +193,13 @@ main {
 
                     /* background-color: green; */
 
+                    .back-page,
                     .next-page {
                         display: flex;
                         align-items: center;
-                        /* background-color: red; */
+                        background-color:rgb(177, 177, 177);
                         padding: .5rem 1.5rem;
                         border-radius: 4px;
-
                     }
 
                     input {
