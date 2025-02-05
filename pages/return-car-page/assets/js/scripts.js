@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     returnForm.addEventListener("submit", function (event) {
-        event.preventDefault(); 
+        event.preventDefault();
 
         if (storedCar) {
             alert(`${storedCar.carChoice} has been returned successfully!`);
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
             unavailableCars = unavailableCars.filter(car => car !== storedCar.carChoice.toLowerCase().replace(/\s+/g, "-"));
             localStorage.setItem("unavailableCars", JSON.stringify(unavailableCars));
 
-            location.reload();
+            window.location.href = "../option-page/index.html";
         }
     });
 });
