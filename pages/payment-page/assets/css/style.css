@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+img,
+svg {
+    display: block;
+}
+
+:root {
+    --clr-primary-hsl-400: 252, 100%, 67%;
+    --clr-primary-hsl-500: 256, 72%, 46%;
+    --clr-secondary-hsl-400: 241, 81%, 54%;
+    --clr-secondary-hsl-500: 241, 72%, 46%;
+
+    --clr-neutral-hsl-100: 0, 0%, 100%;
+    --clr-neutral-hsl-200: 221, 100%, 96%;
+    --clr-neutral-hsl-300: 241, 100%, 89%;
+    --clr-neutral-hsl-700: 224, 30%, 27%;
+
+    --clr-neutral-100: var(--clr-neutral-hsl-100);
+    --clr-neutral-200: var(--clr-neutral-hsl-200);
+    --clr-neutral-300: var(--clr-neutral-hsl-300);
+    --clr-neutral-700: var(--clr-neutral-hsl-700);
+
+    --clr-primary-400: var(--clr-primary-hsl-400);
+    --clr-primary-500:var(--clr-primary-500);
+    --clr-secondary-400: var(--clr-secondary-hsl-400);
+    --clr-secondary-500:var(--clr-secondary-500);
+
+    --clr-primary-bg: #111111;
+    --clr-secondary-bg: #f2f2f2;
+
+    --clr-accent-1: 0, 100%, 67%;
+    --clr-accent-2: 39, 100%, 56%;
+    --clr-accent-3: 166, 100%, 37%;
+    --clr-accent-4: 234, 85%, 45%;
+
+    --clr-primary-text: #2c3e50;
+    --clr-secondary-text: #f2f2f2;
+
+
+    --font-family-default: 'Poppins';
+
+    --fw-regular: 500;
+    --fw-bold: 700;
+    --fw-black: 800;
+
+    --fs-400: 1.125rem;
+    --fs-500: 1.25rem;
+    --fs-600: 1.5rem;
+    --fs-700: 1.75rem;
+    --fs-800: 2rem;
+    --fs-900: 3.5rem;
+
+    --fc-background: rgb(0, 0, 0);
+    --fc-default: rgb(147, 147, 147);
+    --fc-secondary: rgb(255, 255, 255);
+
+
+    --fs-icon-default: 2.5rem;
+    --clr-icon-primary: rgb(255, 255, 255);
+    --clr-icon-secondary: rgba(255, 255, 255, 0.4);
+    --clr-icon-hover: rgb(200, 200, 200);
+
+    --clr-fb:#4267B2;
+    --clr-insta: #5B51D8;
+
+
+    --br-default: 50px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: var(--font-family-default);
+    font-size: var(--fs-400);
+    color: var(--clr-neutral-700);
+    background-color: #d3d3d3;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 65.55vh;
+    background-image: url(../img/ildar-garifullin-rxcIGXJflVo-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    /* background-color: white; */
+    /* background-color: rgba(255, 0, 0, 0.411); */
+
+    section {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        width: 60%;
+        /* background-color: rgba(255, 255, 255, 0.363); */
+
+
+        .section-container {
+            display: flex;
+            flex-direction: column;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            height: 97%;
+            padding: 2rem;
+
+            table,
+            label {
+                color: var(--fc-secondary);
+            }
+
+            .section-content {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 1.5rem;
+
+                h1,
+                p {
+                    color: var(--fc-secondary);
+                }
+                hr {
+                    border: 1px solid var(--fc-secondary);
+                    margin-top: 1rem;
+                }
+            }
+            .checkbox-container {
+
+                display: flex;
+                width: 100%;
+                height: 100%;
+                gap: 3rem;
+                /* background-color: red; */
+                flex-direction: column;
+
+                .another-container {
+                    display: flex;
+                    align-items: end;
+                    flex-direction: row;
+                    height: 100%;
+                    /* background-color: green; */
+
+                    form {
+                        display: flex;
+                        width: 50%;
+                        justify-content: end;
+                        flex-direction: column;
+                        /* background-color: pink; */
+                        gap: 1rem;
+                        height: 100%;
+                    }
+                }
+
+                .button-container {
+                    display: flex;
+                    gap: 2rem;
+                    align-items: end;
+                    width: 100%;
+                    /* background-color: green; */
+
+                    .back-page,
+                    .confirmed-page {
+                        display: flex;
+                        align-items: center;
+                        background-color:rgb(177, 177, 177);
+                        padding: .5rem 1.5rem;
+                        border-radius: 4px;
+                    }
+
+                    .back-page:hover,
+                    .confirmed-page:hover {
+                        background-color: white;
+                    }
+                }
+
+
+
+            }
+
+        }
+    }
+}
