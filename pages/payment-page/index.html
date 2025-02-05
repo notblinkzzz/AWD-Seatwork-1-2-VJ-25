@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car Rental</title>
-    <link rel="stylesheet" href="../confirmation-page/assets/css/style.css">
-    <link rel="stylesheet" href="../confirmation-page/assets/css/header-footer.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/header-footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -33,36 +33,29 @@
     </header>
     <main>
         <section>
-
             <div class="section-container">
                 <div class="section-content">
-                    <h1>Confirmation Page</h1>
-                    <p>Please verify the information and agree to the terms if everything is accurate.</p>
+                    <h1>Payment Page</h1>
+                    <p>Input your details or scan your payment (Gcash and PayPal option)</p>
                     <hr>
                 </div>
-                <table>
-                    <tr><td>Car of Choice:</td><td id="car-choice"></td></tr>
-                    <tr><td>Price per day:</td><td id="price"></td></tr>
-                    <tr><td>Name:</td><td id="name"></td></tr>
-                    <tr><td>Email Address:</td><td id="email"></td></tr>
-                    <tr><td>Address:</td><td id="address"></td></tr>
-                    <tr><td>Phone:</td><td id="phone"></td></tr>
-                </table>
-                <!--    awdawadadwd -->
+
+                <div class="payment-container">
+                    <div id="payment-details">
+
+                    </div>
+                </div>
+
                 <div class="checkbox-container">
                     <div class="another-container">
                         <form id="confirmationForm">
-                            <label>
-                                <input type="checkbox" id="agreeCheckbox" required> I hereby agree that all the information above is correct
-                            </label>
                             <div class="button-container">
                                 <a href="../personal-details-page/index.html"><button type="button" class="back-page">Back</button></a>
-                                <button type="submit" class="confirmed-page">Confirm</button>
+                                <button type="button" class="next-page" id="nextButton">Next</button>
                             </div>
                         </form>
                     </div>
                 </div>
-
             </div>
         </section>
     </main>

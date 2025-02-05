@@ -39,23 +39,36 @@
                 <div class="section-content">
                     <h1>Personal Details </h1>
                     <p>Fill in your personal details to proceed with the car rental.</p>
+                    <hr>
                 </div>
-                <form class="form-container" action="../confirmation-page/index.html">
+                <form class="form-container" action="../payment-page/index.html">
                     <label for="first-name">First Name <span>*</span></label>
-                    <input type="text" class ="input-default-size" name="first-name" required="required" placeholder="Juan">
+                    <input type="text" class="input-default-size" name="first-name" required placeholder="Juan">
+
                     <label for="last-name">Last Name <span>*</span></label>
-                    <input type="text" class ="input-default-size" name="last-name" required="required" placeholder="Dela Cruz">
+                    <input type="text" class="input-default-size" name="last-name" required placeholder="Dela Cruz">
+
                     <label for="email">Email <span>*</span></label>
-                    <input type="email" class ="input-default-size" name="email" required="required" placeholder="juandelacruz@gmail.com">
-                    <label for="address">Address <span>*</span></label>
-                    <input type="text" class ="input-default-size" name="address" required="required" placeholder="221B Baker Street">
+                    <input type="email" class="input-default-size" name="email" required placeholder="juandelacruz@gmail.com">
+
                     <label for="contact-number">Contact Number <span>*</span></label>
-                    <input type="text" class ="input-default-size" name="contact-number" required="required" pattern="09[0-9]{9}" placeholder="09187654321">
+                    <input type="text" class="input-default-size" name="contact-number" required pattern="09[0-9]{9}" placeholder="09187654321">
+
+                    <label for="payment-method">Payment Method <span>*</span></label>
+                    <select name="payment-method" class="input-default-size" required>
+                        <option value="" disabled selected>Select a payment method</option>
+                        <option value="credit-card">Credit Card</option>
+                        <option value="debit-card">Debit Card</option>
+                        <option value="paypal">PayPal (QR Code)</option>
+                        <option value="gcash">Gcash (QR Code)</option>
+                    </select>
+
                     <div class="button-container">
                         <a href="../car-choice-page/index.html"><button type="button" class="back-page">Back</button></a>
                         <input type="submit" value="Next" class="next-page">
                     </div>
                 </form>
+
             </div>
         </section>
     </main>

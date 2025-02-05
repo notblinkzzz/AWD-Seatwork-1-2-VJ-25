@@ -120,6 +120,10 @@ main {
                 p {
                     color: var(--fc-secondary);
                 }
+                hr {
+                    border: 1px solid var(--fc-secondary);
+                    margin-top: 1rem;
+                }
             }
 
             .form-container {
@@ -144,13 +148,19 @@ main {
                     border: 1px solid #ccc;
                     border-radius: 4px;
 
-                    /* background-color: red; */
+                }
+                select option:disabled:not(:first-child) {
+                    color: rgba(255, 0, 0, 0.61);
+                }
+
+                select option:first-child {
+                    color: rgb(95, 96, 99);
                 }
 
                 .car-image-container {
                     display: flex;
-                    justify-content: center; 
-                    align-items: center; 
+                    justify-content: center;
+                    align-items: center;
                     margin-top: 10px;
                     width: 500px;
                     height: 300px;
@@ -163,9 +173,9 @@ main {
                 }
 
                 .car-image-container img {
-                    max-width: 100%; 
-                    max-height: 100%; 
-                    object-fit: contain; 
+                    max-width: 100%;
+                    max-height: 100%;
+                    object-fit: contain;
                 }
 
                 .hidden {

@@ -94,7 +94,6 @@ main {
     background-image: url(../img/ildar-garifullin-rxcIGXJflVo-unsplash.jpg);
     background-position: center;
     background-size: cover;
-    /* background-color: white; */
     /* background-color: rgba(255, 0, 0, 0.411); */
 
     section {
@@ -115,11 +114,6 @@ main {
             height: 97%;
             padding: 2rem;
 
-            table,
-            label {
-                color: var(--fc-secondary);
-            }
-
             .section-content {
                 display: flex;
                 flex-direction: column;
@@ -134,13 +128,59 @@ main {
                     margin-top: 1rem;
                 }
             }
-            .checkbox-container {
+            .payment-container {
+                height: 70%;
+                width: 50%;
+                /* background-color: red; */
+                p {
+                    color: var(--fc-secondary);
+                    margin-bottom: 1rem
+                }
 
+                .payment-label {
+
+                    font-size: 1rem;
+                    color: var(--fc-secondary);
+                    margin-bottom: 8px;
+                    display: block;
+                }
+
+                .payment-input {
+                    width: 100%;
+                    padding: 0.7rem;
+                    font-size: 1rem;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                    outline: none;
+                    margin-bottom: 15px;
+                }
+
+                .payment-input:focus {
+                    border-color: #2563eb;
+                    box-shadow: 0 0 5px rgba(37, 99, 235, 0.5);
+                }
+
+                .payment-text {
+                    font-size: 1rem;
+                    color: var(--fc-secondary);
+                }
+
+                .qr-code {
+                    display: block;
+                    border-radius: 10px;
+                }
+
+            label span {
+                color: red;
+            }
+
+            }
+            .checkbox-container {
                 display: flex;
                 width: 100%;
-                height: 100%;
+                height: 30%;
                 gap: 3rem;
-                /* background-color: red; */
+                /* background-color: pink; */
                 flex-direction: column;
 
                 .another-container {
@@ -150,15 +190,12 @@ main {
                     height: 100%;
                     /* background-color: green; */
 
-                    form {
-                        display: flex;
-                        width: 50%;
-                        justify-content: end;
-                        flex-direction: column;
-                        /* background-color: pink; */
-                        gap: 1rem;
-                        height: 100%;
-                    }
+                }
+                label {
+                    color: var(--fc-secondary);
+                }
+                input {
+                    margin-bottom: 1rem;
                 }
 
                 .button-container {
@@ -169,7 +206,7 @@ main {
                     /* background-color: green; */
 
                     .back-page,
-                    .confirmed-page {
+                    .next-page {
                         display: flex;
                         align-items: center;
                         background-color:rgb(177, 177, 177);
@@ -182,11 +219,7 @@ main {
                         background-color: white;
                     }
                 }
-
-
-
             }
-
         }
     }
 }

@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (unavailableCars.includes(option.value) && option.value !== "") {
             option.textContent = `Unavailable - ${option.textContent}`;
             option.disabled = true;
+            option.classList.add("unavailable-option");
         }
     });
 

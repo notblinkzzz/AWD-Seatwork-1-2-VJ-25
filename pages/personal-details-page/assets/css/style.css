@@ -176,6 +176,11 @@ main {
                 p {
                     color: var(--fc-secondary);
                 }
+
+                hr {
+                    border: 1px solid var(--fc-secondary);
+                    margin-top: 1rem;
+                }
             }
 
             .form-container {

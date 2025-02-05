@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const fullName = `${personalDetails.firstName} ${personalDetails.lastName}`;
         document.getElementById("name").textContent = fullName.trim();
         document.getElementById("email").textContent = personalDetails.email || "N/A";
-        document.getElementById("address").textContent = personalDetails.address || "N/A";
+        document.getElementById("paymentMethod").textContent = personalDetails.paymentMethod || "N/A";
         document.getElementById("phone").textContent = personalDetails.contactNumber || "N/A";
     } else {
         if (!carDetails) {
