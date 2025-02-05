@@ -53,10 +53,9 @@
 
 ---
 
-## Overview
-This seatwork focuses on creating a car rental system that includes 10 cars, with some of them being unavailable. The purpose of this website is to apply my knowledge from my past Web Design Subject, and learn how to use JavaScript.
+This seatwork focuses on creating a car rental system that includes 10 cars, with 3 of them being unavailable. The purpose of this website is to apply my knowledge from my past Web Design Subject and learn how to use JavaScript.
 
-The key components of my website include storing user inputs in local storage, hover effects on headers and footers, and input validation for forms.
+The key components of my website include storing user inputs in local storage, return a previously rented car, hover effects on headers and footers, and input validation for forms.
 
 The technologies that I used were HTML, CSS, and JavaScript. I used HTML for the content and structure of the website, CSS to design the content to make it look good, and JavaScript for validations and storing the inputs.
 
@@ -72,6 +71,7 @@ Guiding Questions:
 - Hover effects
 - Forms
 - Pagination
+- Return car
 - Input validations
 - Inputs are stored in the local storage, like the personal details, car choice, and rented cars
 
